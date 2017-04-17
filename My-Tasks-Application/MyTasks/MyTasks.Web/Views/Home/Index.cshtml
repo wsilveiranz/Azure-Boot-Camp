@@ -1,0 +1,49 @@
+﻿@model List<MyTasks.Web.Models.TaskModel>
+@{
+    ViewBag.Title = "Home Page";
+}
+<br />
+<div class="row">
+
+    <div class="col-md-12">
+
+        <form action="/Home/NewTask" method="post" class="form-inline">
+            <div class="form-group">
+                <input type="text" class="form-control" name="title" id="title" placeholder="Title">
+            </div>
+            <input class="btn btn-default" type="submit" value="Add" />
+        </form>
+
+    </div>
+
+</div>
+
+<br/>
+
+<div class="row">
+
+    <div class="col-md-12">
+        @foreach (var m in Model)
+        {
+            if (!m.IsCompleted)
+            {
+                <p>
+
+                    <span>@m.Title </span>
+                    <button class="btn btn-info" onclick="location.href = '@Url.Action("Complete", "Home", new {id = m.Id})'">Complete</button>
+
+                </p>
+            }
+            else
+            {
+                <p>
+                    <span><del>@m.Title</del> </span>
+                </p>
+            }
+
+        }
+
+
+
+    </div>
+    </div>

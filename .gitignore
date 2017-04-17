@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/My-Tasks-Application/MyTasks/.vs
+/My-Tasks-Application/MyTasks/packages
+/My-Tasks-Application/MyTasks/MyTasks.API/bin
+/My-Tasks-Application/MyTasks/MyTasks.API/obj/Debug
+/My-Tasks-Application/MyTasks/MyTasks.Web/bin/roslyn
+/My-Tasks-Application/MyTasks/MyTasks.Web/bin
+/My-Tasks-Application/MyTasks/MyTasks.Web/obj/Debug
