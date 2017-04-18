@@ -10,3 +10,6 @@
 /My-Tasks-Application/MyTasks/MyTasks.Web/bin/roslyn
 /My-Tasks-Application/MyTasks/MyTasks.Web/bin
 /My-Tasks-Application/MyTasks/MyTasks.Web/obj/Debug
+/My-Tasks-Application/MyTasks/MyTasks.API/obj/Release
+/My-Tasks-Application/MyTasks/MyTasks.API/Properties/PublishProfiles
+/My-Tasks-Application/MyTasks/MyTasks.Web/obj/Release
