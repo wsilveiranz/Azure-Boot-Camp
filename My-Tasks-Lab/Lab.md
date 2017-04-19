@@ -36,5 +36,60 @@ From "View", open "Server Explorer".
 
 Login to your Azure subscription.
 
+![](http://i.imgur.com/yTy1tIb.jpg)
+
+Open WebSite.json.
+
+![](http://i.imgur.com/enTliJy.jpg)
+
+Change the default value e.g. add initials and random number.
+
+Right-click on MyTasks.ResourceGroup.
+
+Click Deploy and fill in the fields.
+
+![](http://i.imgur.com/ka8O9jE.jpg)
+
+Click OK.
+
+In Server Explorer, click Refresh.
+
+You should see the two web sites.
+
+![](http://i.imgur.com/EEPHjF4.jpg)
+
+Right-click on web-azure-bootcamp-auckland ...
+
+Click Download Publish Profile and save.
+
+In Solution Explorer right-click on MyTasks.Web and select Publish.
+
+Select Import.
+
+![](http://i.imgur.com/wlFntcp.jpg)
+
+Browse to the publish profile you saved above.
+
+![](http://i.imgur.com/mtSRlaP.jpg)
+
+Then select Publish.
+
+Repeat the process as above for api-azure-bootcamp-auckland ...
+
+The web site and web service should now be deployed.
+
+# Xamarin #
+
+## Prerequisites ##
+
+## Setup ##
+
+# Dev Ops #
+
+## Prerequisites ##
+
+## Setup ##
+
+
 
 
